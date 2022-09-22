@@ -1,0 +1,35 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+.displayx{
+@apply w-screen min-h-screen bg-stone-900 lg:box-border
+
+}
+.btn-buttonx{
+    @apply  text-white bg-gray-700 border border-transparent
+}
+.btn-buttony{
+ @apply    border-2 border-gray-700 hover:text-white  bg-gray-50
+}
+.btn-button-common{
+    @apply flex justify-center w-full px-4 py-2 text-sm font-medium rounded-md shadow-sm hover:bg-gray-800 focus:outline-none focus:ring-2 focus:ring-gray-500 focus:ring-offset-2
+}
+
+.socialx{
+    @apply bg-white border border-gray-300 rounded-md shadow-sm hover:bg-gray-50 inline-flex justify-center w-full px-4 py-2 text-sm font-medium
+}
+.iconx{
+    @apply w-5 h-5
+}
+/* header */
+.maina{
+    @apply flex w-screen justify-center md:justify-end bg-white/40
+}
+.mainb{
+    @apply space-x-5 font-semibold text-gray-200 sm:space-x-14
+}
+.activetab{
+    @apply bg-white/70 py-1.5 px-3 rounded-lg text-gray-700
+}

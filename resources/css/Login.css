@@ -1,0 +1,73 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+/* common */
+.a{
+   @apply   flex-col min-w-full min-h-full items-center py-16 sm:px-6  lg:px-8
+}
+.c1{
+    @apply justify-center flex
+}
+.a1{
+    @apply mt-8 sm:mx-auto sm:w-full
+}
+.a2{
+    @apply px-4 py-6 bg-white rounded-lg shadow sm:px-10
+}
+.a3{
+    @apply  text-sm relative py-1
+}
+.a4{
+    @apply px-2 font-bold text-gray-500 bg-white
+}
+.a5{
+    @apply grid grid-cols-3 gap-3 pb-3 mt-6
+}
+.a6{
+    @apply relative pt-3
+}
+.a7{
+    @apply absolute inset-0 flex items-center
+}
+.a8{
+    @apply w-full border-t border-gray-300
+}
+.a9{
+    @apply  py-3 text-xs
+}
+.a10{
+    @apply flex items-center justify-between
+}
+.b1{
+    @apply flex items-center
+}
+.b2{
+    @apply block ml-2 text-sm text-gray-900
+}
+.b3{
+   @apply text-sm columns-2
+}
+.b4{
+    @apply text-[0.8rem] font-medium text-indigo-200 hover:text-orange-600
+}
+.b5{
+    @apply font-medium text-[0.8rem] text-indigo-200
+}
+.b6{
+    @apply text-[0.7rem] text-orange-400
+}
+.b7{
+    @apply hover:text-sm hover:text-green-400
+}
+.labelx{
+    @apply block text-sm font-medium text-gray-700
+}
+/* register specific */
+.b8{
+    @apply grid grid-cols-3 gap-3 pb-3 my-3.5
+}
+.b9{
+    @apply relative py-4 text-sm
+}
