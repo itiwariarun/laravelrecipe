@@ -4,7 +4,7 @@
 
 
 .displayx{
-@apply w-screen min-h-screen bg-stone-900 lg:box-border
+@apply w-screen min-h-screen h-[70rem] bg-stone-900 lg:box-border
 
 }
 .btn-buttonx{
