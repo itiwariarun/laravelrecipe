@@ -9,6 +9,9 @@ import User from "./Components/User";
 
 import { Route, Routes, Outlet, BrowserRouter } from "react-router-dom";
 import Header from "./Components/Header";
+import Promotion from "./Components/Promotion";
+import Profile from "./Components/Profile";
+import Report from "./Components/Report";
 function App() {
     return (
         <div
@@ -24,6 +27,9 @@ function App() {
                         <Route path={"/register"} element={<Register />} />
                         <Route path={"/dashboard"} element={<Dashboard />} />
                         <Route path={"/seller"} element={<Seller />} />
+                        <Route path={"/promotion"} element={<Promotion />} />
+                        <Route path={"/profile"} element={<Profile />} />
+                        <Route path={"/report"} element={<Report />} />
 
                         <Route path={"/user"} element={<User />} />
                     </Routes>
