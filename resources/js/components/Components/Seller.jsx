@@ -10,7 +10,7 @@ function Seller() {
             <div className="px-4 mx-auto max-w-7xl sm:px-6 md:px-8">
                 {/* Replace with your content */}
                 <div className="py-4">
-                    <div className="rounded-lg 0 h-96">
+                    <div className="rounded-lg ">
                         <SellerTable />
                     </div>
                 </div>

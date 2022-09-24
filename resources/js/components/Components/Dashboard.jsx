@@ -43,7 +43,7 @@ function Dashboard({ children }) {
                 <Transition.Root show={sidebarOpen} as={Fragment}>
                     <Dialog
                         as="div"
-                        className="relative z-40 md:invisible "
+                        className="relative z-30 md:invisible "
                         onClose={setSidebarOpen}
                     >
                         <Transition.Child

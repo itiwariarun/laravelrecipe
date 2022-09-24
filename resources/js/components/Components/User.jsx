@@ -10,7 +10,7 @@ function User() {
             <div className="px-4 mx-auto max-w-7xl sm:px-6 md:px-8">
                 {/* Replace with your content */}
                 <div className="py-4">
-                    <div className="rounded-lg  h-96">
+                    <div className="rounded-lg ">
                         <UserTable />
                     </div>
                 </div>

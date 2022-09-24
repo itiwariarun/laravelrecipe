@@ -6,7 +6,7 @@ import { Outlet } from "react-router-dom";
 function Home() {
     return (
         <div>
-            <h1 className="flex items-center justify-center py-10 font-serif text-5xl font-bold text-slate-100">
+            <h1 className="box-border flex items-center justify-center font-serif text-5xl font-bold py-60 text-slate-100">
                 Home Page{" "}
             </h1>
         </div>
