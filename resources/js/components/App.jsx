@@ -15,7 +15,7 @@ import Report from "./Components/Report";
 function App() {
     return (
         <div
-            className="displayx"
+            className=" displayx"
             style={{ backgroundImage: "url(/img/register_bg_2.png)" }}
         >
             <BrowserRouter>

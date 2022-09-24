@@ -2,9 +2,11 @@
 @tailwind components;
 @tailwind utilities;
 
-
+.homex{
+    @apply box-border flex items-center justify-center font-serif text-5xl font-bold py-60 text-slate-100
+}
 .displayx{
-@apply w-screen min-h-screen h-[65rem] bg-stone-900 lg:box-border
+@apply w-screen min-h-screen max-h-[75rem] bg-stone-900 lg:box-border
 
 }
 .btn-buttonx{
