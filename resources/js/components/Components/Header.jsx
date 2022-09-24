@@ -5,7 +5,7 @@ import { NavLink, Outlet } from "react-router-dom";
 
 function Header() {
     return (
-        <div className="container fixed z-50">
+        <div className="container md:fixed md:z-50">
             <div className="maina">
                 {" "}
                 <div className="py-3 md:w-11/12">

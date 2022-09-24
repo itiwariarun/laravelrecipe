@@ -12,7 +12,7 @@ import Header from "./Components/Header";
 function App() {
     return (
         <div
-            className="displayx"
+            className=" displayx"
             style={{ backgroundImage: "url(/img/register_bg_2.png)" }}
         >
             <BrowserRouter>
