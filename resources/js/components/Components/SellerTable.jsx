@@ -1,6 +1,10 @@
 import React, { useState, useEffect } from "react";
 import axios from "axios";
 import ReactPaginate from "react-paginate";
+import {
+    ArrowLongLeftIcon,
+    ArrowLongRightIcon,
+} from "@heroicons/react/20/solid";
 
 function SellerTable() {
     const [offset, setOffset] = useState(0);
@@ -91,7 +95,7 @@ function SellerTable() {
                                             </th>
                                         </tr>
                                     </thead>
-                                    <tbody className="Ts20">{data}</tbody>
+                                    <tbody className="Ts20 ">{data}</tbody>
                                 </table>
                             </div>
                         </div>
@@ -100,19 +104,26 @@ function SellerTable() {
             </div>
 
             <ReactPaginate
-                previousLabel={"prev"}
-                nextLabel={"next"}
-                breakLabel={"..."}
-                breakClassName={"break-me"}
-                pageCount={pageCount}
-                marginPagesDisplayed={2}
-                pageRangeDisplayed={5}
-                onPageChange={handlePageClick}
-                containerClassName={"pagination"}
                 subContainerClassName={"pages pagination"}
-                activeClassName={"active"}
-                className="Ts21"
-            />
+                nextLabel="next →"
+                onPageChange={handlePageClick}
+                pageRangeDisplayed={2}
+                marginPagesDisplayed={2}
+                pageCount={pageCount}
+                previousLabel="← prev"
+                pageClassName="page-item"
+                pageLinkClassName="page-plink"
+                previousClassName="page-prev"
+                previousLinkClassName="page-prlink"
+                nextClassName="page-next"
+                nextLinkClassName="page-nelink"
+                breakLabel="..."
+                breakClassName="page-item"
+                breakLinkClassName="page-blink"
+                containerClassName="pagination"
+                activeClassName="active"
+                renderOnZeroPageCount={null}
+            ></ReactPaginate>
         </div>
     );
 }
