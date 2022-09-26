@@ -60,7 +60,8 @@
    @apply text-sm font-medium text-gray-400
 }
 .Ds20{
-    @apply fixed invisible pt-12 md:visible md:inset-y-0 md:flex md:w-80 md:flex-col
+    @apply fixed invisible pt-12 md:visible md:inset-y-0 md:flex  md:flex-col max-w-2xl
+
 }
 .Ds21{
     @apply flex flex-col flex-1 min-h-0 bg-gray-800

@@ -1,6 +1,5 @@
 import React, { Fragment, useState } from "react";
 import { Outlet, Link, Route, Routes } from "react-router-dom";
-
 import { Dialog, Transition } from "@headlessui/react";
 import {
     Bars3Icon,
@@ -16,10 +15,10 @@ import {
 const navigation = [
     { name: "Dashboard", href: "#", icon: HomeIcon, current: true },
     { name: "Seller", href: "/seller", icon: UsersIcon, current: false },
-    { name: "User", href: "/user", icon: UsersIcon, current: false },
-    { name: "Calendar", href: "#", icon: CalendarIcon, current: false },
-    { name: "Documents", href: "#", icon: InboxIcon, current: false },
-    { name: "Reports", href: "#", icon: ChartBarIcon, current: false },
+    { name: "Users", href: "/user", icon: UsersIcon, current: false },
+    { name: "Promotion", href: "/promotion", icon: CalendarIcon, current: false },
+    { name: "Profile", href: "/profile", icon: UsersIcon, current: false },
+    { name: "Reports", href: "/report", icon: ChartBarIcon, current: false },
 ];
 
 function classNames(...classes) {
@@ -96,7 +95,7 @@ function Dashboard({ children }) {
                                         <div className="Ds8">
                                             <img
                                                 className="w-auto h-8"
-                                                src="https://tailwindui.com/img/logos/mark.svg?color=indigo&shade=500"
+                                                src="https://global-uploads.webflow.com/628f3abb7249f8d11545c39a/628f5a103417e11b56cd92ca_Recipe-Cup-Logotype.svg"
                                                 alt="Your Company"
                                             />
                                         </div>
@@ -164,7 +163,7 @@ function Dashboard({ children }) {
                             <div className="Ds8">
                                 <img
                                     className="w-auto h-8"
-                                    src="https://tailwindui.com/img/logos/mark.svg?color=indigo&shade=500"
+                                    src="https://global-uploads.webflow.com/628f3abb7249f8d11545c39a/628f5a103417e11b56cd92ca_Recipe-Cup-Logotype.svg"
                                     alt="Your Company"
                                 />
                             </div>
